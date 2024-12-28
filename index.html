@@ -9,12 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Sedgwick+Ave&family=Whisper&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>Invitación Chloe</title>
   </head>
   <body>
     <div id="cont-video-fondo">
-      <video autoplay loop class="video-background">
+      <video autoplay autoplay muted playsinline loop class="video-background">
         <source src="./assets/images/video-disney.mp4" type="video/mp4" />
         tu navegador no soporta
       </video>
@@ -28,14 +32,14 @@
 
     <div id="cont-inf">
       <div id="cont-banner">
-        <img class="img img-cast" src="./assets/images/castillo 1.png" alt="" />
+        <img class="img img-cast animate__animated" src="./assets/images/castillo 1.png" alt="" />
         <img
-          class="img img-prin"
+          class="img img-prin animate__animated animate__fadeInLeft"
           src="./assets/images/princesas-bebes 1.png"
           alt=""
         />
         <div class="cont-final">
-          <div class="cont-desc">
+          <div class="cont-desc animate__animated animate__fadeInRight">
             <div class="cont-fecha">
               sabado 8 de Febrero
             </div>
@@ -44,9 +48,10 @@
               <div class="cont-horario">a las 16 hs</div>
             </div>
           </div>
+          <h2 class="text sedgwick-ave-regular  animate__animated animate__fadeInUp">Te esperamos!</h2>
           <div id="cont-botones">
-            <button class="btn">ver ubicacion</button>
-            <button class="btn">confirmar asistencia</button>
+            <button class="btn animate__animated animate__fadeInUp">ver ubicacion</button>
+            <button class="btn animate__animated animate__fadeInUp">confirmar asistencia</button>
           </div>
         </div>
       </div>
