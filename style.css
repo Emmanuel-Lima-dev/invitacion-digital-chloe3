@@ -21,7 +21,7 @@ a{
   
 
 body{
-    height : 100vh;
+    height: 100dvh;
     width: 100%;
     overflow : hidden;
 }
@@ -61,6 +61,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .chloe{
