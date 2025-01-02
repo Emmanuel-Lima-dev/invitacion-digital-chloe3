@@ -6,65 +6,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
       href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Sedgwick+Ave&family=Whisper&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
     <link rel="stylesheet" href="./style.css" />
-    <title>Invitación Chloe</title>
+    <title>Document</title>
   </head>
   <body>
-    <div id="cont-video-fondo">
-      <video autoplay muted playsinline loop class="video-background">
-        <source src="./assets/images/video-disney.mp4" type="video/mp4" />
-        tu navegador no soporta
-      </video>
-    </div>
-
-    <div id="cont-gif-fondo"></div>
-
-    <div id="cont-sup">
-      <h1 class="sedgwick-ave-regular">Chloe</h1>
-    </div>
-
-    <div id="cont-inf">
-      <div id="cont-banner">
-        <img
-          class="img img-cast animate__animated"
-          src="./assets/images/castillo 1.png"
-          alt=""
-        />
-        <img
-          class="img img-prin animate__animated animate__fadeInLeft"
-          src="./assets/images/princesas-bebes 1.png"
-          alt=""
-        />
-        <div class="cont-final">
-          <div class="cont-desc animate__animated animate__fadeInRight">
-            <div class="cont-fecha">sabado 8 de Febrero</div>
-            <div class="cont-detalles">
-              <div class="cont-direccion">Basavilbaso 974</div>
-              <div class="cont-horario">a las 16 hs</div>
+    <main>
+      <div class="cont-video-fondo">
+        <video muted autoplay loop playsinline class="video">
+          <source src="./assets/images/video-disney.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="cont-cartel animate__animated animate__fadeInDown">
+        <h1 class="sedgwick-ave-regular chloe">Chloe</h1>
+      </div>
+      <div class="cont-inf sedgwick-ave-regular">
+        <div class="relleno"></div>
+        <div class="cont-detalles">
+          <div class="detalles"></div>
+          <div class="float-detalles  animate__animated animate__fadeInLeft">
+            <div class="cont-purpura">
+              <div class="fecha">Sabado 8 de febrero</div>
+              <div class="inf-der">
+                <div class="lugar">Basavilbaso 974</div>
+                <div class="hora">16 HS</div>
+              </div>
+            </div>
+            <h2 class="te-esperamos">Te esperamos!</h2>
+            <div class="cont-botones">
+              <button class="boton sedgwick-ave-regular"><a href="https://www.google.com.ar/maps/place/Basavilbaso+974,+B1872BFJ+Sarand%C3%AD,+Provincia+de+Buenos+Aires/@-34.6850026,-58.3602799,17z/data=!3m1!4b1!4m6!3m5!1s0x95a33325d437958f:0x6d88d2ab62893474!8m2!3d-34.685007!4d-58.357705!16s%2Fg%2F11jtyjrllx?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">ver ubicación</a></button>
+              <button class="boton sedgwick-ave-regular"><a href="https://wa.link/qxan02">Confirmar asistencia</a></button>
             </div>
           </div>
-          <h2
-            class="text sedgwick-ave-regular animate__animated animate__fadeInUp"
-          >
-            Te esperamos!
-          </h2>
-          <div id="cont-botones">
-            <button class="btn animate__animated animate__fadeInUp">
-              ver ubicacion
-            </button>
-            <button class="btn animate__animated animate__fadeInUp">
-              confirmar asistencia
-            </button>
+          <div class="cont-final">
+            
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
