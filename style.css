@@ -110,7 +110,8 @@ main{
     flex-direction: row;
     padding: 15px 20px;
     width: 95%;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .float-detalles{
