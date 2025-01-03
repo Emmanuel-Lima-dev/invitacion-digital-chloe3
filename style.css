@@ -35,8 +35,15 @@ main{
     flex-direction: column;
 }
 
+.gif{
+    height: 100dvh;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background-image: url("/assets/images/gif-fondo.gif");
+}
+
 .cont-video-fondo{
-    filter: brightness(50%);
     height : 100%;
     width : 100%;
     position : absolute;
