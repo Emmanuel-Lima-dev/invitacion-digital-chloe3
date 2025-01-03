@@ -39,8 +39,11 @@ main{
     height: 100dvh;
     width: 100%;
     position: absolute;
-    z-index: 10;
+    z-index: 1000;
     background-image: url("/assets/images/gif-fondo.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: center 0;
 }
 
 .cont-video-fondo{
